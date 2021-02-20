@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <Version>1.0.0</Version>
+    <Nullable>enable</Nullable>
+    <AssemblyName>TrendFox.Common</AssemblyName>
+    <RootNamespace>TrendFox.Common</RootNamespace>
+    <Authors>Martin Kaip</Authors>
+    <Company>Martin Kaip</Company>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <RepositoryUrl>https://github.com/trendfox/common</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/trendfox/common</PackageProjectUrl>
+    <Description>Common tools and helpers for applications.</Description>
+    <PackageIcon>TrendFox-Icon.png</PackageIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="..\..\TrendFox-Icon.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>

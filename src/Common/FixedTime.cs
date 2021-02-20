@@ -2,6 +2,9 @@ using System;
 
 namespace TrendFox.Common
 {
+    /// <summary>
+    /// Implements <see cref="ITime" /> using a fixed time.
+    /// </summary>
     public class FixedTime
         : ITime
     {

@@ -13,6 +13,9 @@
     <PackageProjectUrl>https://github.com/trendfox/common</PackageProjectUrl>
     <Description>Common tools and helpers for applications.</Description>
     <PackageIcon>TrendFox-Icon.png</PackageIcon>
+    <Copyright>Martin Kaip</Copyright>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>

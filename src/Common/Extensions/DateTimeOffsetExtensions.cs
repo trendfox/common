@@ -2,6 +2,9 @@ using System;
 
 namespace TrendFox.Common
 {
+    /// <summary>
+    /// Provides various <see cref="DateTimeOffset"/> extensions.
+    /// </summary>
     public static class DateTimeOffsetExtensions
     {
         /// <summary>

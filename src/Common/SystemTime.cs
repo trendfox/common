@@ -8,6 +8,9 @@ namespace TrendFox.Common
     public class SystemTime
         : ITime
     {
+        /// <summary>
+        /// Get the current time.
+        /// </summary>
         public DateTimeOffset Now => DateTimeOffset.Now;
     }
 }

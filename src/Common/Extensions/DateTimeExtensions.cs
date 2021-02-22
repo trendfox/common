@@ -2,6 +2,9 @@ using System;
 
 namespace TrendFox.Common
 {
+    /// <summary>
+    /// Provides various <see cref="DateTime"/> extensions.
+    /// </summary>
     public static class DateTimeExtensions
     {
         /// <summary>

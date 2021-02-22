@@ -8,6 +8,9 @@ namespace TrendFox.Common
     public class SystemUtcTime
         : ITime
     {
+        /// <summary>
+        /// Get the current UTC time.
+        /// </summary>
         public DateTimeOffset Now => DateTimeOffset.UtcNow;
     }
 }

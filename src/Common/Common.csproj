@@ -1,9 +1,9 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
-    <PackageVersion>1.0.2</PackageVersion>
-    <Nullable>enable</Nullable>
+	<Version>1.0.2</Version>
+	<Nullable>enable</Nullable>
     <AssemblyName>TrendFox.Common</AssemblyName>
     <RootNamespace>TrendFox.Common</RootNamespace>
     <Authors>Martin Kaip</Authors>

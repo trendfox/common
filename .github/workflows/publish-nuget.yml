@@ -28,4 +28,4 @@ jobs:
         PROJECT_FILE_PATH: src/Common/Common.csproj
         NUGET_KEY: ${{secrets.NUGET_API_KEY}}
         TAG_COMMIT: false
-        VERSION_REGEX: <PackageVersion>(.*)<\/PackageVersion>
+        VERSION_REGEX: <Version>(.*)<\/Version>
